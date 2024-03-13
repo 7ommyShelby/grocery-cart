@@ -12,10 +12,6 @@ const Home = () => {
     const [open, setOpen] = useState(false);
 
     
-
-
-    
-
     function onclickhandler() {
         if(input==""){
             alert('Ente Data')
@@ -43,6 +39,8 @@ const Home = () => {
 
     return (
         <section className='container'>
+
+        <h1>Grocery Cart</h1>
             <SimpleSnackbar
                 open={open}
                 setOpen={setOpen}

@@ -9,8 +9,6 @@ const Carrd = ({ item, index, list, setlist }) => {
 
     useEffect(() => {
         console.log(check);
-
-
     }, [check])
 
 
