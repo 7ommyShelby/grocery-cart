@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+#check{
+    display: flex;
+}
+.delete{
+    
+    padding: 5px 10px;
+    background-color: rgb(56, 53, 59);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
